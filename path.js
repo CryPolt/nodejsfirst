@@ -5,8 +5,8 @@ const fullpath = path.join(__dirname , 'first','third','third.js');
 console.log('parse', path.parse(fullpath));
 
 
-const sitreURL = 'http://localhost:3000/users?id=5123';
+const siteURL = 'http://localhost:4000/users?id=5123';
 
-const url = new URL(sitreURL);
+const url = new URL(siteURL);
 
 console.log(url);
